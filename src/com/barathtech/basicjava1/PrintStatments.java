@@ -42,9 +42,9 @@ public class PrintStatments {
 		System.out.println("Hello, my name is " + name + " and I am " + age + " years old.");
 		// Output: Hello, my name is Alice and I am 30 years old.
 		
-	// print the logs
-	// the logs will include the time stamps
-		
+	    // print the logs
+	    // the logs will include the time stamps
+	   	
 		System.out.println("------------------");
 		Logger logger = Logger.getLogger("Barathtech");
 		logger.info("the line 35 is working fine now");
