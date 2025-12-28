@@ -153,17 +153,7 @@ public class Collectionsjava {
 		empname9.remove("sai",1234); // remove the employee
 		System.out.println("Number of employees: " + empname9.size());
 		System.out.println("Employee at index 3: " + empname9.get("badiga"));
-		System.out.println("Employee Names: " + empname9);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println("Employee Names: " + empname9);	
 		
 	}
 

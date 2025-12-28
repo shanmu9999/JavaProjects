@@ -4,7 +4,7 @@ public class Arthematic_Operators {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// Variables for demonstration
+		
         int a = 10;
         int b = 3;
         boolean x = true;
@@ -12,6 +12,7 @@ public class Arthematic_Operators {
         
         // --- 1. ARITHMETIC OPERATORS ---
         System.out.println("--- 1. Arithmetic Operators ---");
+        
         System.out.println("a + b = " + (a + b)); // Addition
         System.out.println("a - b = " + (a - b)); // Subtraction
         System.out.println("a * b = " + (a * b)); // Multiplication
@@ -20,25 +21,30 @@ public class Arthematic_Operators {
         
         // --- 2. UNARY OPERATORS ---
         System.out.println("\n--- 2. Unary Operators ---");
+        
         int c = 5;
-        System.out.println("Original c: " + c); // 5
+ 
         System.out.println("c++ (Post-increment): " + (c++)); // Prints 5, then c becomes 6
         System.out.println("c after c++: " + c); // 6
+        
         System.out.println("++c (Pre-increment): " + (++c)); // c becomes 7, then prints 7
-        System.out.println("c after c++: " + c); // 7
+  
         System.out.println("!x (Logical NOT): " + (!x)); // false // x value original true
         
         // --- 3. ASSIGNMENT OPERATORS ---
         System.out.println("\n--- 3. Assignment Operators ---");
-        int d = a; // Simple assignment (=)
+        
+        int d = a; // Simple assignment (=)  
         System.out.println("d = a is now: " + d); // 10
-                          d += 5; // Compound assignment (d = d + 5) so 10+5
+        
+        d += 5; // Compound assignment (d = d + 5) so 10+5
         System.out.println("d += 5 is now: " + d); // 15
-                          d *= 2; // d = d * 2  so 15 *2
+        
+        d *= 2; // d = d * 2  so 15 *2
         System.out.println("d *= 2 is now: " + d); // 30
-        System.out.println("The value of d is now: "+d); //30
-                          d %= 5; // remainder is 0
-        System.out.println("d %= 5 is now :"+d);
+ 
+        d %= 5; // remainder is 0
+        System.out.println("d %= 5 is now :"+d); 
         
         // --- 4. RELATIONAL (COMPARISON) OPERATORS ---
         System.out.println("\n--- 4. Relational Operators ---");
@@ -54,7 +60,8 @@ public class Arthematic_Operators {
         // x is true, y is false
         System.out.println("x && y (Logical AND): " + (x && y)); // false (true AND false)
         System.out.println("x || y (Logical OR): " + (x || y)); // true (true OR false)
-        
+        System.out.println((a < b) && (a > b));
+        System.out.println((a < b) || (a > b));
 	}
 
 }
